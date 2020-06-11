@@ -19,7 +19,7 @@ class ItemsController < ApplicationController
 
       results.each do |result|
         # 扱いやすいようにItemとしてインスタンスを作成する(ここでは保存はしない)
-        item = Item.find_or_initialize_by(read)
+        item = Item.find_or_initialize_by(read(result))
         @items << item
       end
     end
