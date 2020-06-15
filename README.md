@@ -23,3 +23,5 @@ Things you may want to cover:
 
 * ...
 # Rakuten-Clone
+本番環境(heroku)
+https://rakuten-me.herokuapp.com
